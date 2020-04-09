@@ -1,0 +1,10 @@
+const chapters = [
+    {
+        title: 'Week One',
+        paragraphs: [
+            'It was January 1st, 2035. The year of the Tiger. China was on the verge of civil war. Or, corporate takeover, depending on who you asked, and where you asked the question. Biyu was floating on the surface of a pool of deepest jade. Or, she was passed out with her pants down on someone else’s bare, dirty mattress. Depending on who you asked. As she floated back to her body, she realised she could hear someone trying to pry open the door to the hallway, in the next room over. She opened her eyes, and was temporarily blinded by a wall of lights and shapes. As her eyes adjusted, she realised that what she was seeing was the invisible lines of connection between all things. They looked like strings, vibrating, and colour coded, in every shade imaginable. They tugged her up, off the mattress and toward the open window. A vague memory told her it was a 32 story drop to the footpath. Biyu pulled her pants back up at the same time as the hallway door crashed open. Biyu paid no attention to the sounds of her soon to be kidnapper as he stomped through the small apartment to her door: She was too busy trying to wake up her groggy mind, still blissed out from the heroin vape she had stolen from him. She was trying to decipher what the myriad, alien lines of light were describing. They twisted and turned in the air in front of the window, like a million ribbon dancers performing for her. She felt that they wanted her, too, to twist, just so. To fall in exactly that spot. So she leapt into the web of light. Twisting, spinning, just like they told her. The man burst into the room just in time to see Biyu launch herself, cackling and triumphant, off the windowsill and out into the void.'
+        ]
+    }
+]
+
+export default chapters

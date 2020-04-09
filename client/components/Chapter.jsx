@@ -1,12 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import chapters from '../../chapters/chapters'
+
 
 const Chapter = (props) => {
   return (
     <>
-    <h1>Week {props.match.params.id}</h1>
-    <p>ello ello ello</p>
+    <h1>{chapters[props.match.params.id-1].title}</h1>
+    {chapters[props.match.params.id-1].paragraphs.map(paragraph => <p>{paragraph}</p>)}
     </>
   )
 }
