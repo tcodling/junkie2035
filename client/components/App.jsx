@@ -8,7 +8,7 @@ import Chapter from './Chapter'
 const App = () => {
   return (
     <>
-    <h1>Junkie2035</h1>
+    <h1 id='title'>Junkie2035</h1>
     <Router>
       <Route path='/' component={Nav} />
       <Route path='/chapter/:id' component={Chapter} />

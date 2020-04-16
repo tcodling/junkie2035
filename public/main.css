@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Ubuntu&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('images/cityscape.jpg');
+}
+
+#title {
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+}
+
+.chapter {
+    background-color: bisque;
+    width: 60%;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
