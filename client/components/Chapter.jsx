@@ -1,16 +1,24 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import {connect} from 'react-redux'
 import chapters from '../../chapters/chapters'
 
 
 const Chapter = (props) => {
+  const chapter = props.chapters.find(chapter => chapter.fields.id == props.match.params.id)
+  console.log(chapter)
   return (
     <div className='chapter'>
-    <h1>{chapters[props.match.params.id-1].title}</h1>
-    {chapters[props.match.params.id-1].paragraphs.map(paragraph => <p>{paragraph}</p>)}
+    <h1>{chapter.fields.title}</h1>
+    <p>{chapter.fields.content}</p>
     </div>
   )
 }
 
-export default Chapter
+function mapStateToProps(state) {
+  return {
+    chapters: state.chapters
+  }
+}
+
+export default connect(mapStateToProps)(Chapter)
