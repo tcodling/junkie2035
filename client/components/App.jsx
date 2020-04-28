@@ -2,10 +2,17 @@ import React from 'react'
 
 import { HashRouter as Router, Route } from 'react-router-dom'
 
+import {fetchChapters} from '../actions/chapters'
+import {connect} from 'react-redux'
+
 import Nav from './Nav'
 import Chapter from './Chapter'
 
 class App extends React.Component {
+  componentDidMount() {
+    this.props.dispatch(fetchChapters())
+  }
+
   render() {
     return (
       <>
@@ -19,4 +26,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default connect()(App)
