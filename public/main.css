@@ -30,6 +30,11 @@ li {
     border-radius: 3px;
 }
 
+li:hover {
+    background-color: #fdaf62;
+    font-weight: bold;
+}
+
 a {
     color: black;
     text-decoration: none;
