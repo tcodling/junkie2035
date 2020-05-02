@@ -7,8 +7,10 @@ const Nav = (props) => {
     <div className='chapterList'>
     <h1>Chapters</h1>
     <ul>
-    {props.chapters.map(chapter => {
-      return <Link to={`/chapter/${chapter.fields.id}`}><li key={chapter.fields.id}>{chapter.fields.title}</li></Link>
+    {props.chapters.sort(function(a, b) { 
+      return a.fields.id - b.fields.id
+      }).map(chapter => {
+        return <Link to={`/chapter/${chapter.fields.id}`}><li key={chapter.fields.id}>{chapter.fields.title}</li></Link>
     })}
     </ul>
     </div>
