@@ -5,11 +5,11 @@ import {connect} from 'react-redux'
 
 const Chapter = (props) => {
   const chapter = props.chapters.find(chapter => chapter.fields.id == props.match.params.id)
-  console.log(chapter)
   return (
     <div className='chapter'>
     <h1>{chapter.fields.title}</h1>
     <p>{chapter.fields.content}</p>
+    {/* replace(/\n/g, "<br />"); */}
     </div>
   )
 }

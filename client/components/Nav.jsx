@@ -7,7 +7,7 @@ const Nav = (props) => {
     <div className='chapterList'>
     <h1>Chapters</h1>
     <ul>
-    {props.chapters.map(chapter => <li>
+    {props.chapters.map(chapter => <li key={chapter.fields.id}>
       <Link to={`/chapter/${chapter.fields.id}`}>{chapter.fields.title}</Link>
     </li>)}
     </ul>
