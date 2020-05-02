@@ -1,7 +1,7 @@
 function chapters(state = [], action) {
     switch (action.type) {
         case 'GET_CHAPTERS':
-            return action.chapters
+            return action.chapters.reverse()
         default:
             return state
     }
