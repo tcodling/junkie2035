@@ -33,6 +33,7 @@ li {
 li:hover {
     background-color: #fdaf62;
     font-weight: bold;
+    cursor: pointer;
 }
 
 a {
