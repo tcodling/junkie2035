@@ -11,7 +11,11 @@ body {
 #title {
     font-family: 'Bungee', cursive;
     font-size: 80px;
-    margin: 10px;
+    margin: -50px;
+}
+
+#author {
+    font-family: 'Bungee', cursive;
 }
 
 ul {
@@ -46,7 +50,7 @@ a {
     width: 30%;
     border: 3px black solid;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: 30px auto;
     padding: 10px;
 }
 

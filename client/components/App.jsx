@@ -17,6 +17,7 @@ class App extends React.Component {
     return (
       <>
       <h1 id='title'>Junkie2035</h1>
+      <p id='author'>by Felix Clarke</p>
       <Router>
         <Route path='/' component={Nav} />
         <Route path='/chapter/:id' component={Chapter} />
