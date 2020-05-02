@@ -7,8 +7,12 @@ const Chapter = (props) => {
   const chapter = props.chapters.find(chapter => chapter.fields.id == props.match.params.id)
   return (
     <div className='chapter'>
-    <h1>{chapter.fields.title}</h1>
-    <p>{chapter.fields.content}</p>
+    {chapter ? (
+      <>
+      <h1>{chapter.fields.title}</h1>
+      <p>{chapter.fields.content}</p>
+      </>
+    ) : 'loading'}
     {/* replace(/\n/g, "<br />"); */}
     </div>
   )
