@@ -8,7 +8,7 @@ const Chapter = (props) => {
     <div className='chapter'>
     {chapter ? (
       <>
-      <h1>{chapter.fields.title}</h1>
+      <h1 className='subheading'>{chapter.fields.title}</h1>
       <p>
       {chapter.fields.content.split("\n").map(line => {
         return (

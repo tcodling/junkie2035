@@ -14,6 +14,10 @@ body {
     margin: -50px;
 }
 
+.subheading {
+    font-family: 'Bungee', cursive;
+}
+
 #author {
     font-family: 'Bungee', cursive;
 }
@@ -27,7 +31,8 @@ ul {
 }
 
 li {
-    border: 1px black solid;
+    border: 2px black solid;
+    font-weight: bold;
     display: inline-block;
     margin: 5px;
     padding: 5px;
@@ -36,7 +41,6 @@ li {
 
 li:hover {
     background-color: #fdaf62;
-    font-weight: bold;
     cursor: pointer;
 }
 
@@ -60,5 +64,5 @@ a {
     border: 3px black solid;
     border-radius: 20px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
 }
