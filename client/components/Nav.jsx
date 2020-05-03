@@ -10,7 +10,7 @@ const Nav = (props) => {
     {props.chapters.sort(function(a, b) { 
       return a.fields.id - b.fields.id
       }).map(chapter => {
-        return <Link to={`/chapter/${chapter.fields.id}`}><li key={chapter.fields.id}>{chapter.fields.title}</li></Link>
+        return <Link key={chapter.fields.id} to={`/chapter/${chapter.fields.id}`}><li>{chapter.fields.title}</li></Link>
     })}
     </ul>
     </div>
