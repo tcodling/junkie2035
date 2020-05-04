@@ -19,7 +19,7 @@ const Chapter = (props) => {
       {chapter.fields.id > 1 && <Link to={`/chapter/${chapter.fields.id - 1}`}><button>Previous Chapter</button></Link>}
       {chapter.fields.id < props.chapters.length && <Link to={`/chapter/${chapter.fields.id + 1}`}><button>Next Chapter</button></Link>}
       </>
-    ) : 'loading'}
+    ) : <img src='images/loading.png' />}
     </div>
   )
 }
