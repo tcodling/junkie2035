@@ -16,6 +16,8 @@ const Chapter = (props) => {
         )
       })}
       </p>
+      <Link to={`/chapter/${chapter.fields.id - 1}`}><button>Previous Chapter</button></Link>
+      <Link to={`/chapter/${chapter.fields.id + 1}`}><button>Next Chapter</button></Link>
       </>
     ) : 'loading'}
     </div>

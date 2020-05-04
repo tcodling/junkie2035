@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 const Nav = (props) => {
   return (
     <div className='chapterList'>
-    <h1>Chapters</h1>
+    <h1 id='chapterHeading' className='subheading'>Chapters</h1>
     <ul>
     {props.chapters.sort(function(a, b) { 
       return a.fields.id - b.fields.id

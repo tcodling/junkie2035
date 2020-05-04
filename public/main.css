@@ -14,6 +14,10 @@ body {
     margin: -50px;
 }
 
+#chapterHeading {
+    margin: -20px;
+}
+
 .subheading {
     font-family: 'Bungee', cursive;
 }
@@ -30,16 +34,18 @@ ul {
     flex-wrap: wrap;
 }
 
-li {
+li, button {
     border: 2px black solid;
+    background-color: bisque;
     font-weight: bold;
     display: inline-block;
     margin: 5px;
     padding: 5px;
     border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-li:hover {
+li:hover, button:hover {
     background-color: #fdaf62;
     cursor: pointer;
 }
