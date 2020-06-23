@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee|Ubuntu&display=swap');
 
+#app {
+    width: 108vw;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     background-image: url('images/cityscape.jpg');
     background-repeat: no-repeat;
     background-color: #131205;
+    margin: 0 auto;
+    width: 100vw;
 }
 
 #title {
@@ -72,4 +83,30 @@ a {
     margin: 0 auto;
     padding: 50px;
     text-align: left;
+}
+
+@media (max-device-width: 800px) {
+    li, button {
+        font-size: 30px;
+    }
+
+    #author {
+        font-size: 50px;
+    }
+
+    .chapterList {
+        width: 108vw;
+        margin: 0;
+        border-radius: 0;
+        border: 0;
+        padding: 2vw;
+    }
+
+    .chapter {
+        width: 108vw;
+        border-radius: 0;
+        border: 0;
+        margin: 0;
+        padding: 2vw;
+    }
 }

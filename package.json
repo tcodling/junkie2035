@@ -1,7 +1,7 @@
 {
-  "name": "taxonomic-routing",
+  "name": "junkie2035",
   "version": "0.2.0",
-  "description": "Using React Router to navigate the taxonomic rank",
+  "description": "a web series by felix",
   "repository": "https://github.com/dev-academy-challenges/taxonomic-routing.git",
   "main": "server/index.js",
   "scripts": {
