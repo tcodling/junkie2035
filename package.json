@@ -53,6 +53,6 @@
     "redux-thunk": "^2.3.0",
     "superagent": "^5.2.2",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
